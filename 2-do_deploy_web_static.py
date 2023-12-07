@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-"""Defines a fabric function `do_deploy` that distributes
+"""Defines a fabric function do_deploy that distributes
 an archive to web servers"""
 
 from fabric.api import *
 import os
 
 env.hosts = [
-    "54.157.187.24",
-    "54.158.255.184"
+    "54.157.148.39",
+    "34.224.17.90"
 ]
 
 
