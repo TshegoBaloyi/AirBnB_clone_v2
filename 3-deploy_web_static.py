@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-"""Defines fabric functions that distributes
-an archive to web servers, then extracts and deploys it"""
+"""fabric script functions that distributes
+an archive to web servers, extracts and deploys it"""
 
 from fabric.api import *
 from datetime import datetime
 import os
 
 env.hosts = [
-    "54.157.187.24",
-    "54.158.255.184"
+    "54.157.148.39",
+    "34.224.17.90"
 ]
 
 

@@ -1,4 +1,4 @@
-# Script that sets up your web servers for the deployment of web_static
+#A Bash Script that sets up your web servers for the deployment of web_static
 exec { 'update packages':
   command => 'sudo apt-get update > /dev/null',
   path    => ['/usr/bin', '/usr/sbin',],
